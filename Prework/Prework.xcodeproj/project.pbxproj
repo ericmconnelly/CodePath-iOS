@@ -16,6 +16,7 @@
 		BFD1115A28853FD80037AF9A /* PreworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD1115928853FD80037AF9A /* PreworkTests.swift */; };
 		BFD1116428853FD80037AF9A /* PreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD1116328853FD80037AF9A /* PreworkUITests.swift */; };
 		BFD1116628853FD80037AF9A /* PreworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD1116528853FD80037AF9A /* PreworkUITestsLaunchTests.swift */; };
+		BFD11173288546BD0037AF9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD11172288546BD0037AF9A /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BFD1115F28853FD80037AF9A /* PreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD1116328853FD80037AF9A /* PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITests.swift; sourceTree = "<group>"; };
 		BFD1116528853FD80037AF9A /* PreworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFD11172288546BD0037AF9A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				BFD1114228853FD70037AF9A /* AppDelegate.swift */,
 				BFD1114428853FD70037AF9A /* SceneDelegate.swift */,
-				BFD1114628853FD70037AF9A /* ViewController.swift */,
 				BFD1114828853FD70037AF9A /* Main.storyboard */,
+				BFD11172288546BD0037AF9A /* SettingsViewController.swift */,
+				BFD1114628853FD70037AF9A /* ViewController.swift */,
 				BFD1114B28853FD80037AF9A /* Assets.xcassets */,
 				BFD1114D28853FD80037AF9A /* LaunchScreen.storyboard */,
 				BFD1115028853FD80037AF9A /* Info.plist */,
@@ -261,6 +264,7 @@
 				BFD1114728853FD70037AF9A /* ViewController.swift in Sources */,
 				BFD1114328853FD70037AF9A /* AppDelegate.swift in Sources */,
 				BFD1114528853FD70037AF9A /* SceneDelegate.swift in Sources */,
+				BFD11173288546BD0037AF9A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
